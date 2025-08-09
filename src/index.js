@@ -1,12 +1,12 @@
+// ---------------------------------------------
+// frontend/src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './App'; // Make sure this path is correct
 
-// Find the root element in the HTML.
-const rootElement = document.getElementById('root');
-
-// Create a React root and render the App component.
-// This is the main entry point for the entire application.
-const root = ReactDOM.createRoot(rootElement);
+// This is the entry point of your application.
+// It finds the root element and renders the App component inside it.
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />

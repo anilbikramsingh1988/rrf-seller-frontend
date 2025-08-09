@@ -1,22 +1,11 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+// tailwind.config.js
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{html,js}", // This will look in your src folder for any html or js files
+    "./*.html", // This will also look for any HTML files in the root of your project
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        // This extends the default sans-serif font to use 'Inter',
-        // which was linked in your index.html file.
-        sans: ['Inter', 'sans-serif'],
-      },
-      colors: {
-        // You can define custom color palettes here.
-        // For example:
-        // 'rose-600': '#E11D48',
-      },
-    },
+    extend: {},
   },
   plugins: [],
-}
+};

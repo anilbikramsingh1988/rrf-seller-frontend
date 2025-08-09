@@ -1,0 +1,18 @@
+/* This is the file for your main application styles. */
+
+/*
+  Add the Tailwind directives below.
+  These directives are crucial for Tailwind to inject its base,
+  components, and utility styles into your CSS.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Optional: Add any global custom CSS here.
+  For example, to set a default font for the entire app.
+*/
+body {
+  font-family: 'Inter', sans-serif;
+}
