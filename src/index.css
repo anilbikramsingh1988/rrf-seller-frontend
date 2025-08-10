@@ -1,18 +1,18 @@
-/* This is the file for your main application styles. */
-
-/*
-  Add the Tailwind directives below.
-  These directives are crucial for Tailwind to inject its base,
-  components, and utility styles into your CSS.
-*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/*
-  Optional: Add any global custom CSS here.
-  For example, to set a default font for the entire app.
-*/
+/* Any other global styles you want can go here */
 body {
-  font-family: 'Inter', sans-serif;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
